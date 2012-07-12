@@ -1,3 +1,2 @@
 distanceBetweenSpawners: 16
-checkBedrockToSkybox: true
 stTooClose: "&7You're too close to another spawner, try elsewhere."
