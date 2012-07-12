@@ -1,0 +1,8 @@
+name: SpawnerDistancesRestricter
+main: com.cyprias.spawnerdistancerestricter.SpawnerDistancesRestricter
+version: 0.1.0
+
+permissions:
+    spawnerdistancerestricter.exempt:
+        default: false
+        description: Excempt a player from distance restrictions.
