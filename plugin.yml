@@ -1,5 +1,5 @@
-name: SpawnerDistancesRestricter
-main: com.cyprias.spawnerdistancerestricter.SpawnerDistancesRestricter
+name: SpawnerDistanceRestricter
+main: com.cyprias.spawnerdistancerestricter.SpawnerDistanceRestricter
 version: 0.1.0
 
 permissions:

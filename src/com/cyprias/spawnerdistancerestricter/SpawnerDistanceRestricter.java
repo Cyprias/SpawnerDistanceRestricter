@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class SpawnerDistancesRestricter extends JavaPlugin {
+public class SpawnerDistanceRestricter extends JavaPlugin {
 	public static File folder = new File("plugins/SpawnerDistancesRestricter");
 	public static String chatPrefix = "§f[§aSDR§f] ";
 	public Events events;

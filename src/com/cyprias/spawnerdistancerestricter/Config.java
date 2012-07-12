@@ -10,14 +10,14 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 
 public class Config {
-	private SpawnerDistancesRestricter plugin;
+	private SpawnerDistanceRestricter plugin;
 	private static Configuration config;
 	
 	static int distanceBetweenSpawners;
 	static boolean checkBedrockToSkybox;
 	static String stTooClose;
 	
-	public Config(SpawnerDistancesRestricter plugin) {
+	public Config(SpawnerDistanceRestricter plugin) {
 		this.plugin = plugin;
 		config = plugin.getConfig().getRoot();
 		config.options().copyDefaults(true);

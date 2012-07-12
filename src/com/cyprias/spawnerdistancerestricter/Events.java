@@ -8,9 +8,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 
 public class Events implements Listener {
-	private SpawnerDistancesRestricter plugin;
+	private SpawnerDistanceRestricter plugin;
 
-	public Events(SpawnerDistancesRestricter plugin) {
+	public Events(SpawnerDistanceRestricter plugin) {
 		this.plugin = plugin;
 	}
 
